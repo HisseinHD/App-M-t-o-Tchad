@@ -25,13 +25,10 @@ const villes = {
   ouara: { name: "Ouara", lat: 13.5, lon: 21.0 },
   gounougaya: { name: "Gounou-Gaya", lat: 8.95, lon: 17.416 },
 
-
-    mangalmé: { name: "Mangalmé", lat: 11.9, lon: 21.7 },
+  mangalmé: { name: "Mangalmé", lat: 11.9, lon: 21.7 },
   massakory: { name: "Massakory", lat: 13.1, lon: 15.7 },
-  djarab: { name: "Djarab", lat: 12.5, lon: 20.0 }
+  djarab: { name: "Djarab", lat: 12.5, lon: 20.0 },
 };
-
-
 
 // Route test
 app.get("/", (req, res) => {
