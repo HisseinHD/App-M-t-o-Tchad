@@ -39,9 +39,12 @@ Node.js avec Express.js.
 
 Gestion des routes API.
 
-API externe
+##### API externe
 
 Météo Concept API (ou toute API météo équivalente).
+Documentation : pour plus de détails :
+
+https://api.meteo-concept.com/documentation
 
 ### Outils
 
@@ -55,6 +58,7 @@ Cloner le dépôt :
 ``` 
 git clone https://github.com/HisseinHD/App-M-t-o-Tchad.git
 cd meteo-tchad
+
 ``` 
 ### Installer les dépendances backend :
 
@@ -70,10 +74,14 @@ API_KEY=ta_cle_api_meteo
 ### Lancer le backend :
 
 ``` 
-npm start
-node serveur.js
+node server.js
+
 ```  
+Le backend sera accessible sur : http://localhost:3000
+
 ### Installer et lancer le frontend :
 
 - ouvrer le fichier index.html.
-- Accéder à l’application dans le navigateur :
+- accèder à l’application via le navigateur. 
+
+###  
